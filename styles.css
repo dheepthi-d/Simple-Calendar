@@ -17,7 +17,7 @@ button {
 }
 
 #header {
-  padding: 10px;
+  padding: 5px;
   color: #5d0b0b;
   font-size: 26px;
   display: flex;
@@ -47,9 +47,9 @@ button {
   flex-wrap: wrap;
 }
 .day {
-  width: 97px;
+  width: 100px;
   padding: 10px;
-  height: 97px;
+  height: 100px;
   cursor: pointer;
   box-sizing: border-box;
   background-color: rgb(121, 39, 101);
