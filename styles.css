@@ -2,6 +2,8 @@ body {
   display: flex;
   justify-content: center;
   background-color: #f4c4f4;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 button {
   width: 75px;
@@ -18,12 +20,12 @@ button {
   padding: 10px;
   color: #5d0b0b;
   font-size: 26px;
-  font-family: sans-serif;
   display: flex;
   justify-content: space-between;
 }
 #header button {
   background-color: #5c1952;
+  font-family: inherit;
   color: whitesmoke;
 }
 #container {
@@ -32,7 +34,7 @@ button {
 #weekdays {
   width: 100%;
   display: flex;
-  color: #164458;
+  color: #2c0820;
 }
 #weekdays div {
   width: 100px;
@@ -45,9 +47,9 @@ button {
   flex-wrap: wrap;
 }
 .day {
-  width: 100px;
+  width: 97px;
   padding: 10px;
-  height: 100px;
+  height: 97px;
   cursor: pointer;
   box-sizing: border-box;
   background-color: rgb(121, 39, 101);
