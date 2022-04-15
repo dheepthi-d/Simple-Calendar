@@ -55,9 +55,9 @@ button {
   box-shadow: 0px 0px 7px #721b2f;
   display: flex;
   flex-direction: column;
-  border-radius: 30%;
   justify-content: space-between;
   color: whitesmoke;
+  border-radius: 15%;
 }
 .day:hover {
   background-color: #8b2594;
@@ -78,7 +78,7 @@ button {
 }
 .padding {
   cursor: default !important;
-  background-color: #fe99d1 !important;
+  background-color: rgb(213, 127, 192) !important;
   box-shadow: none !important;
 }
 #newEventModal,
